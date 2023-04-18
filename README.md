@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Code Explaination
+
+1. Initially, the UI was developed based on the input.
+2. Data is created at "ComponentA" and then sent to "ComponentB" where the increment logic is also written. onClick of the button inside the circle, the value increases in the steps of 10.
+3. Under that box another button was created to change the color based on the input.
+   i. If it is true, color of the button will be red.
+   i. If it is false, color of the button will be blue.
+4. Finally, this code was pushed into git repo and hosted in the github pages.
